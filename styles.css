@@ -110,16 +110,36 @@ body {
 }
 
 .challengesContainer {
-  width: 100vh;
+  width: 100%;
 
   height: 500px;
 
-  padding-left: 4rem;
+  /* padding-left: 4rem; */
+
+  background-color: bisque;
+}
+
+.cards-container {
+  display: flex;
+
+  flex-direction: row;
+
+  width: 100%;
+
+  justify-content: space-around;
+
+  align-items: center;
+
+  background-color: magenta;
+
+  margin-bottom: 1rem;
+
+  /* padding: 2rem; */
 }
 
 .card {
-  width: 240px;
-  height: 250px;
+  width: 220px;
+  height: 290px;
 
   background-color: red;
 
@@ -130,7 +150,10 @@ body {
   align-items: center;
   justify-content: space-around;
 
-  padding: 0.5rem 1rem;
+  /* padding: 0.5rem 1rem;
+
+  margin: 0 2rem; */
+  /* margin: 0 2rem; */
 }
 
 .image-project {
