@@ -21,11 +21,6 @@
       <div class="container">
         <div class="navBar">
           <img src="./images/code.png" />
-          <nav>
-            <a href="/html/">HTML</a> | <a href="/css/">CSS</a> |
-            <a href="/js/">JavaScript</a> |
-            <a href="/python/">Python</a>
-          </nav>
         </div>
         <div class="body">
           <section>
@@ -34,10 +29,10 @@
               <span class="description-text"
                 >Esse é um desafio proposta pela Rocketseat com o objetivo de
                 desenvolver o conhecimento em FrontEnd. A ideia, a princípio, é
-                desenvolver uma desafio por dia por pelo menos 1 hora.</span
+                desenvolver um desafio por dia por pelo menos 1 hora.</span
               >
 
-              <button>See Challenges</button>
+              <a href="#challenges">See Challenges</a>
             </div>
             <div>
               <img src="./images/computer3.gif" class="computer" />
@@ -46,71 +41,101 @@
           </section>
         </div>
       </div>
-      <div class="challengesContainer">
+      <div id="challenges" class="challengesContainer">
         <h1>Challenges</h1>
 
         <div class="cards-container">
           <div class="card">
-            <img class="image-project" src="./images/helloworld.png" />
-            <span>Project Name</span>
+            <div
+              class="card-image"
+              style="background-image: url('./images/helloworld.png')"
+            ></div>
+            <div class="card-body">
+              <div class="card-body-first">
+                <div class="card-title-container">
+                  <div class="card-circle">1</div>
+                  <span class="card-title">Hello World</span>
+                </div>
+                <span class="card-description">
+                  Hello World customizado com fontes, cores e imagens
+                </span>
+              </div>
 
-            <div>
-              <span>tecn</span>
-              <span>tec2</span>
-            </div>
-
-            <div>
-              <button>Github</button>
-              <button>Live Project</button>
-            </div>
-          </div>
-
-          <div class="card">
-            <img class="image-project" src="./images/helloworld.png" />
-            <span>Project Name</span>
-
-            <div>
-              <span>tecn</span>
-              <span>tec2</span>
-            </div>
-
-            <div>
-              <button>Github</button>
-              <button>Live Project</button>
+              <div class="card-body-second">
+                <div class="card-button-container">
+                  <a class="card-button">Github</a>
+                  <a class="card-button">Live project</a>
+                </div>
+              </div>
             </div>
           </div>
 
           <div class="card">
-            <img class="image-project" src="./images/helloworld.png" />
-            <span>Project Name</span>
+            <div
+              class="card-image"
+              style="background-image: url('./images/animatedbutton.png')"
+            ></div>
+            <div class="card-body">
+              <div class="card-body-first">
+                <div class="card-title-container">
+                  <div class="card-circle">2</div>
+                  <span class="card-title">Animated Button</span>
+                </div>
+                <span class="card-description">
+                  Criação de um botão animado
+                </span>
+              </div>
 
-            <div>
-              <span>tecn</span>
-              <span>tec2</span>
-            </div>
-
-            <div>
-              <button>Github</button>
-              <button>Live Project</button>
+              <div class="card-body-second">
+                <div class="card-button-container">
+                  <a class="card-button">Github</a>
+                  <a class="card-button">Live project</a>
+                </div>
+              </div>
             </div>
           </div>
 
           <div class="card">
-            <img class="image-project" src="./images/helloworld.png" />
-            <span>Project Name</span>
+            <div
+              class="card-image"
+              style="background-image: url('./images/calculator.png')"
+            ></div>
+            <div class="card-body">
+              <div class="card-body-first">
+                <div class="card-title-container">
+                  <div class="card-circle">3</div>
+                  <span class="card-title">Calculator</span>
+                </div>
+                <span class="card-description">
+                  Criação de uma calculadora simples
+                </span>
+              </div>
 
-            <div>
-              <span>tecn</span>
-              <span>tec2</span>
-            </div>
-
-            <div>
-              <button>Github</button>
-              <button>Live Project</button>
+              <div class="card-body-second">
+                <div class="card-button-container">
+                  <a class="card-button">Github</a>
+                  <a class="card-button">Live project</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      <footer class="footer">
+        <div>
+          <a href="https://github.com/naycorrea" target="_blank" class="social"
+            ><img src="./images/github.svg"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/nayaracorreaflorentino/"
+            target="_blank"
+            class="social"
+            ><img src="./images/linkedin.svg"
+          /></a>
+        </div>
+        <span>© Todos os Diretos Reservados - Nayara Corrêa. </span>
+      </footer>
     </div>
   </body>
 </html>
